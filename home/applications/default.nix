@@ -3,6 +3,7 @@
     ./browsers
     ./communication
     ./development
+    ./office
     ./terminal
   ];
 }

@@ -3,5 +3,6 @@
     nixd
     alejandra
     nixfmt-rfc-style
+    nodePackages.eslint
   ];
 }

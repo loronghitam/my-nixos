@@ -8,5 +8,3 @@
     };
   };
 }
-# helix, librewolf, chromium, zellij
-

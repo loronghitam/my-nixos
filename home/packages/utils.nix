@@ -6,5 +6,6 @@
     ripgrep
     fd
     httpie
+    libsForQt5.krohnkite
   ];
 }

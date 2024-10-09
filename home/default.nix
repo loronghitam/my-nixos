@@ -13,6 +13,7 @@ in {
     ./development
     ./packages
     ./shell
+    #    ./hyprland
   ];
 
   nix = {
@@ -31,6 +32,8 @@ in {
     homeDirectory = "/home/xxmuggle";
     sessionVariables = {
       NIX_PATH = lib.concatStringsSep ":" (lib.mapAttrsToList (n: _: "${n}=flake:${n}") flakeInputs);
+      CAMELOT_GS_PATH = "${pkgs.ghostscript}/bin/gs";
+      LD_LIBRARY_PATH = "${pkgs.ghostscript}/lib:$LD_LIBRARY_PATH";
     };
   };
 

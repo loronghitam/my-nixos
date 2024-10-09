@@ -9,6 +9,7 @@
 
   home-manager = {
     useGlobalPkgs = true;
+    useUserPackages = true;
     extraSpecialArgs = {};
   };
   #  home-manager.extraSpecialArgs = {};

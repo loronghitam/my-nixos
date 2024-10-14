@@ -2,7 +2,7 @@
   users = {
     extraGroups = {
       vboxusers = {
-        members = ["xxmuggle"];
+        members = ["muggle"];
       };
     };
   };

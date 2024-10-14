@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   users = {
     users = {
-      xxmuggle = {
+      muggle = {
         isNormalUser = true;
         extraGroups = ["networkmanager" "wheel" "docker"];
       };

@@ -1,15 +1,15 @@
 {
   security = {
     sudo = {
-      enable = false;
+      enable = true;
     };
     doas = {
       enable = true;
       extraRules = [
         {
-          users = ["xxmuggle"];
+          users = ["muggle"];
           groups = ["wheel"];
-          keepEnv = false;
+          keepEnv = true;
           noPass = true;
         }
       ];

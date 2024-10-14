@@ -2,6 +2,6 @@
   imports = [
     ./alacritty.nix
     ./zellij.nix
-    ./kitty.nix
+#    ./kitty.nix
   ];
 }
